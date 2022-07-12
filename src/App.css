@@ -1,0 +1,105 @@
+.App {
+  width: 40%;
+  margin: 2em auto;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  color:rgb(0, 0, 0);
+  border: 3px solid rgb(240, 98, 146)
+}
+
+.tasklist-header{
+  padding: 0.5em;
+  border-bottom: 1px solid rgb(240, 98, 146);
+  text-align: center;
+}
+
+.tasklist-header h1{
+  margin: 0;
+}
+
+.task-form{
+  padding: 1em;
+  margin: 0 2em;
+  border-bottom:1px solid rgb(240, 98, 146);
+}
+
+.task-form h2,
+.task-list h2{
+  text-align: center;
+  margin-top: 0;
+}
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label{
+  font-weight: bold;
+  font-size: .7em;
+  margin-bottom: 0.4em;
+}
+
+.form-control input{
+  border: 1px solid rgb(247, 117, 197);
+  border-radius: 2px;
+  background-color: rgb(247, 166, 216);
+  padding: .5em;
+  color: #525252;
+}
+
+input[type="submit"]{
+  background-color: rgb(247, 166, 216);
+  color:#eee;
+  display: block;
+  width: 100%;
+  border: 1px solid rgb(247, 117, 197);
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.task-list {
+  padding: 0 1em 2em;
+  margin: 1em 2em;
+}
+
+.task-list h2 {
+  margin-bottom: 0;
+}
+
+.task-list p{
+  text-align: center;
+}
+
+.task {
+  border-bottom: 1px solid #444;
+  padding:1em 0;
+}
+
+.task h3 {
+  margin-bottom: .5em;
+}
+
+.task-done {
+  text-decoration: line-through;
+  color: rgb(240, 98, 146);
+}
+.task p {
+  text-align: left;
+  font-style: italic;
+  font-size: .7em;
+  margin-bottom: 1.5em;
+}
+
+.task svg {
+  font-size:1.2em;
+  cursor: pointer;
+  margin-right: 1em;
+  transition: .5s;
+}
+
+.task svg:hover{
+  color: rgb(240, 98, 146);
+}
